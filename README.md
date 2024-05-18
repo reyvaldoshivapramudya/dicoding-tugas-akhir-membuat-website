@@ -3,6 +3,5 @@ Menyelesaikan Tugas Akhir membuat Website dari Dicoding
 Tools :
 1. HTML
 2. CSS
-3. Javascript
 
 Link : https://dicoding-tugas-akhir-membuat-website-nu.vercel.app
