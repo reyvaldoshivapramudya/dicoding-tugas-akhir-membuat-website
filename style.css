@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.social-media {
+  position: fixed;
+  left: 0;
+  top: 6rem;
+  z-index: 9;
+}
+
+.whatsapp {
+  width: 25px;
+  background-color: #32be66;
+  height: 30px;
+  padding: 10px;
+  border-radius: 0 8px 0 0;
+  transition: .3s;
+}
+
+.whatsapp:hover {
+  filter: brightness(110%);
+}
+
+.facebook {
+  width: 25px;
+  background-color: #2f5a92;
+  height: 30px;
+  padding: 10px;
+  transition: .3s;
+}
+
+.facebook:hover {
+  filter: brightness(110%);
+}
+
+.spotify {
+  width: 25px;
+  background-color: #3aca6d;
+  height: 30px;
+  padding: 10px;
+  transition: .3s;
+}
+
+.spotify:hover {
+  filter: brightness(110%);
+}
+
+.twitter {
+  width: 25px;
+  background-color: #00acee;
+  height: 30px;
+  padding: 10px;
+  transition: .3s;
+}
+
+.twitter:hover {
+  filter: brightness(110%);
+}
+
+.linkedin {
+  width: 25px;
+  background-color: #0072b1;
+  height: 30px;
+  padding: 10px;
+  border-radius: 0 0 8px 0;
+  transition: .3s;
+}
+
+.linkedin:hover {
+  filter: brightness(110%);
+}
+
+header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(241, 21, 21);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #405168;
+}
+
+.logo div {
+  opacity: 50%;
+  margin: 0 5px;
+}
+
+.logo h1 {
+  font-weight: 600;
+}
+
+.logo h2 {
+  font-weight: 500;
+}
+
+.logo span {
+  color: rgb(241, 21, 21);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #405168;
+  transition: .2s;
+  font-size: 18px;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  color: rgb(241, 21, 21);
+  border: 1px solid rgb(241, 21, 21);
+}
+
+main {
+  width: 100%;
+  margin-bottom: 8rem;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  padding: 20px 20px;
+}
+
+.content h2 {
+  margin-left: 25px;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: -5px;
+  color: rgb(49, 49, 49);
+}
+
+.content p {
+  font-size: 15px;
+  margin-left: 30px;
+  color: rgb(99, 99, 99);
+}
+
+.content a {
+  text-decoration: none;
+  color: rgb(241, 21, 21);
+  margin-right: 10px;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content span {
+  color: rgb(241, 21, 21);
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+article {
+  max-width: 75%;
+  margin-top: 30px;
+}
+
+article p {
+  margin-bottom: 12px;
+  color: rgb(226, 0, 0)
+}
+
+aside {
+  background-color: rgb(255, 250, 250);
+  position: absolute;
+  top: 65rem;
+  right: 0;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  border-top: 1px solid rgb(221, 0, 0);
+  border-left: 1px solid rgb(221, 0, 0);
+  border-bottom: 1px solid rgb(221, 0, 0);
+}
+
+aside h4 {
+  color: rgb(226, 0, 0);
+  font-size: 18px;
+}
+
+aside img {
+  width: 180px;
+  border-radius: 20px;
+  margin: 10px 20px;
+  margin-bottom: -2px;
+}
+
+aside #name {
+  margin-left: 2px;
+  color: rgb(226, 0, 0);
+  font-weight: 500;
+}
+
+aside #profession {
+  margin-left: 2px;
+}
+
+footer {
+  background-color: #2c3746;
+  color: white;
+  padding: 20px 5px;
+  text-align: center;
+  border-top: 2px solid #202833;
+}
